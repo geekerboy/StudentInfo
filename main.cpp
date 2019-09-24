@@ -4,7 +4,8 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
     Student stu;
-    stu.Average_score_single();
+    stu.Average_score();
+    stu.Max_score();
 
     return 0;
 }
