@@ -33,8 +33,17 @@ void Student::Max_score() {
 void Output_info(Student stu) {
     int32_t id=0;
     std::cout<<"enter the student id you want to show the info"<<std::endl;
-    std::cout<<"the id you put should between 1-5"<<std::endl;
+    std::cout<<"the id you input should between 1-5"<<std::endl;
     std::cin>>id;
+    while(id<1||id>5){
+        std::cout<<"the id you input should between 1-5"<<std::endl;
+        std::cout<<"enter the student id again"<<std::endl;
+        std::cin>>id;
+    }
+    std::cout<<"the student name is "<<stu.student_name_[id-1]<<",his id is "<<id;
+    std::cout<<",his language is " <<stu.language_score_[id-1]<<",his math is ";
+    std::cout<<stu.math_score_[id-1]<<std::endl;
+
 }
 
 

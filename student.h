@@ -8,7 +8,6 @@
 class Student{
 public:
     void Average_score();
-
     void Max_score();
     friend void Output_info(Student stu);
 
