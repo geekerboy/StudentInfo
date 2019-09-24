@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 
+
+
 class Student{
 public:
     void Average_score_single();
