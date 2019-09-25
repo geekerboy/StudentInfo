@@ -17,9 +17,9 @@ void  Student::Average_score_single() {
 
 }
 
-void Student::Average_score_all() {
-
-}
+//void Student::Average_score_all() {
+//
+//}
 
 void Student::Max_score() {
 
